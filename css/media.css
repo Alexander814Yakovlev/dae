@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+    .about__inner {
+        padding: 60px 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav__inner {
+        justify-content: center;
+    }
+
+    .desktop__menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .about__card {
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .item__image>img {
+        max-width: 91vw;
+    }
+
+    .about__card{
+        position: static;
+    }
+}
